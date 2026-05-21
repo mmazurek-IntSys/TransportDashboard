@@ -2,6 +2,13 @@
 
 A desktop application for managing and monitoring transport operations, including vehicle tracking, freight history, and integrations with external logistics services.
 
+![Dashboard](docs/TransportDashboard.png)
+
+## UML CLASS DIAGRAM
+
+![Dashboard](docs/TransportDaschboardUML.png)
+
+
 ## 📌 Features
 
 - 🚛 Vehicle tracking and GPS position monitoring
