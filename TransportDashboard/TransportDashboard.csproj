@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+
+		<TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+
+		<UseWindowsForms>true</UseWindowsForms>
+
+		<Nullable>enable</Nullable>
+
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+
+		<!-- EF CORE -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.8">
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+
+		<!-- HTTP (lightweight, bez hostingu) -->
+		<PackageReference Include="Microsoft.Extensions.Http" Version="10.0.8" />
+		<PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
+
+		<!-- Polly (opcjonalnie) -->
+		<PackageReference Include="Polly" Version="8.6.6" />
+
+		<!-- MAPA (TYLKO JEDNA WERSJA) -->
+		<PackageReference Include="GMap.NET.WindowsForms" Version="1.7.5" />
+		<PackageReference Include="System.Data.SQLite" Version="2.0.3" />
+		<PackageReference Include="ToastNotifications" Version="2.5.1" />
+
+	</ItemGroup>
+
+</Project>
