@@ -23,6 +23,7 @@ A desktop application for managing and monitoring transport operations, includin
 ## 🏗️ Project Structure
 ```
 TransportDashboard/
+├── AI/ # AI Matching
 ├── Data/ # Database context
 ├── Models/ # Domain models and API DTOs
 ├── Services/ # Business logic and integrations
@@ -86,7 +87,7 @@ Trans.eu
 
 Used for freight exchange and logistics operations.
 
-##Future Improvements
+## Future Improvements
 
 Web version (ASP.NET / Blazor)
 Real-time tracking dashboard
